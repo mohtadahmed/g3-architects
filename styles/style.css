@@ -127,3 +127,50 @@ button {
 }
 
 /* Our Feature Section CSS Styles Ends */
+
+
+/* Responsive with Media Query */
+/* Responsive for Small and Mobile Devices */
+
+@media screen and (max-width:576px) {
+
+    /* Header CSS Styles Starts */
+    .navbar {
+        flex-direction: column;
+        padding: 2.5rem;
+    }
+
+    .nav-links li {
+        margin-right: 25px;
+    }
+
+    .header-content {
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 40px;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    /* Header CSS Styles Starts */
+
+    /* Our Feature Section CSS Styles Starts */
+
+    .feature-container {
+        flex-direction: column-reverse;
+    }
+
+    .team-image {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+
+    /* Our Feature Section CSS Styles Starts */
+}
+
+/* Responsive for Small and Mobile Devices */
+/* Responsive with Media Query */
