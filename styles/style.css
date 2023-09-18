@@ -74,8 +74,13 @@ button {
 }
 
 .header-img {
-    text-align: center;
+    width: 90%;
+    margin: 0 auto;
     padding-bottom: 45px;
+}
+
+.header-img img {
+    width: 100%;
 }
 
 /* Header CSS Styles Ends */
@@ -83,7 +88,7 @@ button {
 /* Our Feature Section CSS Styles Starts */
 
 .feature-section {
-    width: 70%;
+    width: 75%;
     margin: 3rem auto;
 }
 
@@ -100,15 +105,19 @@ button {
     margin-right: 3.5rem;
 }
 
+.feature-content {
+    width: 65%;
+}
+
 .feature-content h1 {
-    width: 70%;
+    width: 100%;
     font-size: 45px;
     font-weight: 500;
     margin-bottom: 1.25rem;
 }
 
 .feature-content p {
-    width: 90%;
+    width: 100%;
 }
 
 .feature-content p,
@@ -145,7 +154,7 @@ button {
     font-size: 45px;
     font-weight: 700;
     color: #131313;
-    width: 50%;
+    width: 80%;
     border-left: 5px solid #FF900E;
     padding-left: 15px;
     margin-top: 2rem;
@@ -161,8 +170,8 @@ button {
     width: 70%;
     border-radius: 8px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-    padding: 2rem;
-    margin: 1.5rem 0;
+    padding: 1.5rem;
+    margin: 1.25rem 0;
 }
 
 .card h2 {
@@ -212,7 +221,28 @@ button {
         margin-right: 0;
     }
 
-    /* Our Feature Section CSS Styles Starts */
+    /* Our Feature Section CSS Styles Ends */
+
+
+    /* List Feature Section CSS Styles Starts */
+
+    .list-feature-container {
+        flex-direction: column;
+    }
+
+    .list-feature-content>p {
+        width: 100%;
+    }
+
+    .list-feature-img img {
+        width: 100%;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    /* List Feature Section CSS Styles Ends */
 }
 
 /* Responsive for Small and Mobile Devices */
