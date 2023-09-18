@@ -12,7 +12,7 @@ body {
 .btn-primary {
     background-color: #FF900E;
     padding: 20px;
-    font-size: 24px;
+    font-size: 20px;
     color: #FFF;
     border: 0;
     border-radius: 8px;
@@ -79,3 +79,51 @@ button {
 }
 
 /* Header CSS Styles Ends */
+
+/* Our Feature Section CSS Styles Starts */
+
+.feature-section {
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-right: 3.5rem;
+}
+
+.feature-content h1 {
+    width: 70%;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.feature-content p {
+    width: 90%;
+}
+
+.feature-content p,
+button {
+    margin-bottom: 1.25rem;
+}
+
+#text-our {
+    font-weight: 700;
+    color: #131313;
+}
+
+#text-feature {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+/* Our Feature Section CSS Styles Ends */
